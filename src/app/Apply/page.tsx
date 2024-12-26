@@ -2,7 +2,7 @@ import Button from '@/components/button'
 import React from 'react'
 import { FaFacebook } from 'react-icons/fa6'
 
-import Link from 'next/link'
+
 const Apply = () => {
   return (
     <div className='h-screen '>
@@ -19,7 +19,7 @@ const Apply = () => {
         </div>
         <div className='mt-20 ml-[150px] flex'>
         <p>Already Applied?</p>
-        <Link href={'/'} className='underline'>Get Admit Card</Link> 
+        <a href={'#'} className='underline'>Get Admit Card</a> 
         </div>
         </div>
       </div>

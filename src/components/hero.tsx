@@ -3,9 +3,10 @@ import Button from './button';
 import Image from 'next/image';
 import Apply from './apply';
 
+
 export default function Hero() {
   return (
-    <div className='h-auto flex justify-between items-center px-10 py-6'>
+    <div className='h-auto flex justify-between items-center px-10 py-6  '>
       {/* Left Section */}
       <div className='w-1/2'>
         <h1 className='text-blue-900 text-6xl font-extrabold mt-14'>Governor Sindh</h1>
@@ -25,6 +26,7 @@ export default function Hero() {
       <div className='w-1/2 flex mt-2 justify-end'>
         <Image src="/images/cover.png" alt="governor" height={800} width={800} />
       </div>
+      
     </div>
   );
 }
